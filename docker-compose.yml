@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  numbercount:
+    image: numbercount
+    build:
+      context: ./NumberCount
+      dockerfile: Dockerfile
